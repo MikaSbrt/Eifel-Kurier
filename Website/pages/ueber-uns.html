@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Über uns – Eifel-Kurier</title>
+  <meta name="description" content="Lernen Sie Eifel-Kurier kennen: Gegründet 2005 von Michael Jäger, heute ein etablierter Logistikbetrieb mit 40+ Angestellten und 30+ Fahrzeugen aus der Vulkaneifel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/hero.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body>
+
+<!-- Top-Bar -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.06 2.18 2 2 0 012.04 0h3a2 2 0 012 1.72c.12 1.01.42 2 .88 2.92a2 2 0 01-.45 2.11L6.91 8.25a16 16 0 006.29 6.29l1.5-1.5a2 2 0 012.11-.45c.92.46 1.91.76 2.92.88A2 2 0 0122 16.92z"/></svg>
+      <a href="tel:08003200515">0800 3200 515</a>&nbsp;(kostenfrei)
+    </div>
+    <div class="topbar-item">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <a href="mailto:info@eifel-kurier.de">info@eifel-kurier.de</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header" style="top:37px">
+  <div class="container header-inner">
+    <a href="../index.html" class="nav-logo" aria-label="Eifel-Kurier Startseite">
+      <img src="../images/logo.png" alt="Eifel-Kurier Logo" width="140" height="46">
+    </a>
+
+    <nav class="nav-menu" aria-label="Hauptnavigation">
+      <a href="../index.html">Startseite</a>
+      <a href="ueber-uns.html" class="active">Über uns</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="getraenkelogistik.html">Getränkelogistik</a>
+      <a href="eventlogistik.html">Eventlogistik</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <a href="kontakt.html" class="nav-cta">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.06 2.18 2 2 0 012.04 0h3a2 2 0 012 1.72c.12 1.01.42 2 .88 2.92a2 2 0 01-.45 2.11L6.91 8.25a16 16 0 006.29 6.29l1.5-1.5a2 2 0 012.11-.45c.92.46 1.91.76 2.92.88A2 2 0 0122 16.92z"/></svg>
+      Anfrage stellen
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation">
+  <button class="mobile-menu-close" aria-label="Menü schließen">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="../index.html">Startseite</a>
+  <a href="ueber-uns.html" class="active">Über uns</a>
+  <a href="leistungen.html">Leistungen</a>
+  <a href="getraenkelogistik.html">Getränkelogistik</a>
+  <a href="eventlogistik.html">Eventlogistik</a>
+  <a href="kontakt.html">Kontakt</a>
+  <a href="kontakt.html" class="nav-cta">Anfrage stellen</a>
+</nav>
+
+<!-- Page Header -->
+<div class="page-header" style="padding-top:76px">
+  <div class="container">
+    <div class="page-header-breadcrumb">
+      <a href="../index.html">Startseite</a>
+      <span>›</span>
+      <span>Über uns</span>
+    </div>
+    <h1>Über Eifel-Kurier</h1>
+    <p>Familienbetrieb, Leidenschaft und 20 Jahre Erfahrung in der Logistikbranche.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     GRÜNDER & GESCHICHTE
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="founder-section">
+
+      <div class="founder-text reveal">
+        <span class="section-label">Unsere Geschichte</span>
+        <h2>Michael Jäger &amp; Eifel-Kurier</h2>
+        <p class="founder-subtitle">Geschäftsführer &amp; Gründer</p>
+
+        <p>
+          Die Geschichte von Eifel-Kurier beginnt im Jahr 2005 mit einer klaren Idee:
+          Logistik, die wirklich funktioniert. Michael Jäger gründete das Unternehmen
+          in Daun, mitten in der malerischen Vulkaneifel – einer Region, die er kennt
+          wie seine Westentasche.
+        </p>
+
+        <p>
+          Mit Leidenschaft, unternehmerischem Gespür und dem festen Willen, für seine
+          Kunden immer da zu sein, baute er Schritt für Schritt ein Unternehmen auf,
+          das heute weit über die Grenzen der Region hinaus bekannt ist.
+        </p>
+
+        <blockquote class="founder-quote">
+          "Logistik ist Vertrauen. Unser Anspruch ist es, dieses Vertrauen täglich
+          neu zu verdienen – durch Pünktlichkeit, Zuverlässigkeit und persönlichen
+          Service."
+          <br><br>— Michael Jäger, Gründer
+        </blockquote>
+
+        <p>
+          Ein entscheidender Wachstumsschritt folgte 2014, als Eifel-Kurier das größte
+          Taxiunternehmen der Region übernahm. Diese Akquisition erweiterte nicht nur die
+          Fahrzeugflotte erheblich, sondern schärfte auch das Know-how im Bereich
+          Personentransport und Eventlogistik.
+        </p>
+
+        <p>
+          Heute beschäftigt Eifel-Kurier über 40 Mitarbeiterinnen und Mitarbeiter und
+          verfügt über einen Fuhrpark von mehr als 30 Fahrzeugen. Das Unternehmen
+          agiert regional, national und europaweit – mit dem Herz eines Familienbetriebs
+          und der Professionalität eines modernen Logistikunternehmens.
+        </p>
+
+        <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top:24px">
+          <a href="kontakt.html" class="btn btn-primary">Kontakt aufnehmen</a>
+          <a href="leistungen.html" class="btn btn-outline-dark">Unsere Leistungen</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     TIMELINE
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section section--gray">
+  <div class="container">
+    <div class="text-center reveal" style="margin-bottom:48px">
+      <span class="section-label">Unsere Entwicklung</span>
+      <h2 class="section-title">Meilensteine</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2005</div>
+        <div class="timeline-title">Gründung Eifel-Kurier</div>
+        <p class="timeline-text">
+          Michael Jäger gründet Eifel-Kurier in Daun, Vulkaneifel. Der Fokus liegt von
+          Anfang an auf Direktfahrten, Zuverlässigkeit und persönlichem Service.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2008–2012</div>
+        <div class="timeline-title">Wachstum und Spezialisierung</div>
+        <p class="timeline-text">
+          Eifel-Kurier erweitert sein Leistungsportfolio um Getränkelogistik,
+          Spezialtransporte und Volumentransporte. Die Fahrzeugflotte wächst stetig.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2014</div>
+        <div class="timeline-title">Übernahme des größten Taxiunternehmens der Region</div>
+        <p class="timeline-text">
+          Ein Meilenstein: Eifel-Kurier übernimmt das führende Taxiunternehmen der
+          Region und stärkt damit signifikant Fuhrpark, Know-how und Marktposition.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">2016–2020</div>
+        <div class="timeline-title">Europäische Expansion</div>
+        <p class="timeline-text">
+          Das Einzugsgebiet wird auf ganz Europa ausgedehnt. Eifel-Kurier etabliert
+          sich als verlässlicher Partner für internationale Transporte, inklusive
+          Schweiz-Verzollung.
+        </p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-year">Heute</div>
+        <div class="timeline-title">40+ Mitarbeiter · 30+ Fahrzeuge · Europaweit</div>
+        <p class="timeline-text">
+          Eifel-Kurier ist ein modernes, wachstumsstarkes Logistikunternehmen mit
+          tiefem regionalen Verständnis und europäischer Reichweite – immer mit dem
+          persönlichen Touch eines Familienbetriebs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     KENNZAHLEN
+     ═══════════════════════════════════════════════════════════ -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item stagger-item">
+        <span class="stat-number" data-target="40" data-suffix="+">40+</span>
+        <span class="stat-label">Angestellte</span>
+      </div>
+      <div class="stat-item stagger-item">
+        <span class="stat-number" data-target="30" data-suffix="+">30+</span>
+        <span class="stat-label">Fahrzeuge</span>
+      </div>
+      <div class="stat-item stagger-item">
+        <span class="stat-number" data-target="20" data-suffix="+">20+</span>
+        <span class="stat-label">Jahre Erfahrung</span>
+      </div>
+      <div class="stat-item stagger-item">
+        <span class="stat-number" style="font-size:1.8rem">EU-weit</span>
+        <span class="stat-label">Einsatzgebiet</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════
+     GRUNDWERTE
+     ═══════════════════════════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="text-center reveal" style="margin-bottom:52px">
+      <span class="section-label">Was uns antreibt</span>
+      <h2 class="section-title">Unsere Grundwerte</h2>
+      <p class="section-subtitle">Diese vier Werte sind das Fundament, auf dem Eifel-Kurier jeden Tag aufs Neue aufgebaut wird.</p>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-item stagger-item">
+        <div class="value-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h3>Zuverlässigkeit</h3>
+        <p>Wir halten, was wir versprechen. Ihre Sendung kommt pünktlich an – egal ob national oder europaweit, ob Nacht oder Wochenende.</p>
+      </div>
+
+      <div class="value-item stagger-item">
+        <div class="value-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3>Flexibilität</h3>
+        <p>Kein Auftrag ist zu groß, keiner zu kurzfristig. Wir passen uns Ihren Anforderungen an und finden immer eine Lösung.</p>
+      </div>
+
+      <div class="value-item stagger-item">
+        <div class="value-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        </div>
+        <h3>Transparenz</h3>
+        <p>Klare Kommunikation, faire Preise, keine Überraschungen. Sie wissen immer, was mit Ihrer Sendung passiert.</p>
+      </div>
+
+      <div class="value-item stagger-item">
+        <div class="value-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3>Schnelligkeit</h3>
+        <p>Zeit ist Geld – das wissen wir. Unsere Direktfahrten garantieren schnellste Lieferzeiten ohne Umwege und Zwischenstopps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fahrzeugbild -->
+<section class="section section--gray" style="padding: 60px 0">
+  <div class="container">
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img src="../images/motorsport-publikum.jpg"
+             alt="Eifel-Kurier bei der ADAC Rallye – Eventlogistik"
+             width="600" height="450"
+             loading="lazy">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="../images/transport-auto.jpg"
+             alt="Eifel-Kurier Kleintransporter"
+             width="600" height="450"
+             loading="lazy">
+      </div>
+      <div class="gallery-item reveal" style="background:var(--color-dark-green); display:flex; align-items:center; justify-content:center; padding:32px; text-align:center;">
+        <div>
+          <p style="color:rgba(255,255,255,0.8); font-size:1.1rem; font-weight:700; margin-bottom:8px">30+ Fahrzeuge</p>
+          <p style="color:rgba(255,255,255,0.6); font-size:0.9rem">Moderne Flotte für jeden Transportbedarf</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="reveal">
+      <h2>Lernen Sie uns persönlich kennen</h2>
+      <p>Wir freuen uns auf Ihre Anfrage und beraten Sie gerne persönlich – kostenlos und unverbindlich.</p>
+    </div>
+    <div class="reveal">
+      <a href="kontakt.html" class="btn btn-outline">Jetzt Kontakt aufnehmen</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../images/logo.png" alt="Eifel-Kurier Logo" width="140" height="46" loading="lazy">
+        <p class="footer-slogan">... besser direkt!</p>
+        <p>Ihr zuverlässiger Logistikpartner aus der Vulkaneifel. Regional verwurzelt, europaweit vernetzt.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <nav class="footer-links">
+          <a href="../index.html">Startseite</a>
+          <a href="ueber-uns.html">Über uns</a>
+          <a href="leistungen.html">Leistungen</a>
+          <a href="getraenkelogistik.html">Getränkelogistik</a>
+          <a href="eventlogistik.html">Eventlogistik</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <div class="footer-contact-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Neunkirchener Str. 23<br>54550 Daun</span>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.06 2.18 2 2 0 012.04 0h3a2 2 0 012 1.72c.12 1.01.42 2 .88 2.92a2 2 0 01-.45 2.11L6.91 8.25a16 16 0 006.29 6.29l1.5-1.5a2 2 0 012.11-.45c.92.46 1.91.76 2.92.88A2 2 0 0122 16.92z"/></svg>
+          <div><a href="tel:08003200515">0800 3200 515</a> (kostenfrei)<br><a href="tel:+4965923200">+49 6592 3200</a></div>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:info@eifel-kurier.de">info@eifel-kurier.de</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Eifel-Kurier – Terminlogistik. Alle Rechte vorbehalten.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">AGB</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/nav.js"></script>
+<script src="../js/animations.js"></script>
+</body>
+</html>
+
+
