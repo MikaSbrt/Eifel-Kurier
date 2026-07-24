@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /pages/impressum.html
-Disallow: /pages/datenschutz.html
-Disallow: /pages/agb.html
-
-Sitemap: https://www.eifel-kurier.de/sitemap.xml
