@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.eifel-kurier.de/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.eifel-kurier.de/pages/ueber-uns.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eifel-kurier.de/pages/leistungen.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.eifel-kurier.de/pages/getraenkelogistik.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eifel-kurier.de/pages/eventlogistik.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eifel-kurier.de/pages/kontakt.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
